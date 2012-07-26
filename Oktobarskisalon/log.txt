@@ -1,0 +1,2 @@
+12:58:16: C:\Documents and Settings\Lolita Loco\Mina dokument\[WORDPRESS]\Projekt - theme releases\blank\sv_SE.po:63: 'msgstr' is not a valid PHP format string, unlike 'msgid'. Reason: In the directive number 1, the character 'k' is not a valid conversion specifier.
+12:58:16: msgfmt: found 1 fatal error

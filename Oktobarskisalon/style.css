@@ -1,0 +1,377 @@
+/*
+Theme Name: Oktobarski salon
+Theme URI: http://wordpress.org/
+Description: 
+Version: 1.0
+Author: Anna
+Author URI: 
+Tags: empty, clean, development, design
+*/
+
+/* -- just some ugly styling to make it easier to get started, can safely be removed */
+.entry-meta {
+	display: none; 
+}
+.sidebar, #entry-meta-single {border:1px solid red;}
+#respond {border:1px solid yellow;}
+li.depth-1 {border: 1px solid orange;}
+
+
+
+/* - BASIC STUFF - */
+
+/* RESET */
+* {
+	margin: 0 auto; 
+	padding: 0;
+}
+
+/* -- MAIN DIV'S -- */
+#wrapper {
+	float:none;
+	clear:both;
+	margin:0 auto;
+	padding:0;
+	width:960px;
+}
+
+body {
+	background: #FFF;
+	font: 9pt/11pt Tahoma, Verdana, sans-serif;
+	color: #666;
+	margin: 0 auto;
+}
+
+/* CONTENT */
+#content {
+	height: 545px;
+	background: url(img/52.jpg) top right no-repeat;
+	background-position-y: -10px;
+}
+
+/* SOCIAL */
+#social {
+	float: right; 
+	margin: -49px 119px 0 0;
+}
+
+#social .facebook {
+	background: url(img/facebook.png);	
+	height: 20px;
+	width: 17px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+#social .youtube {
+	background: url(img/youtube.png);
+	height: 20px;
+	width: 37px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+#social .twitter {
+	background: url(img/twitter.png);
+	height: 20px; 
+	width: 20px; 
+	display: inline-block; 
+	text-indent: -9999px; 
+}
+
+.katalog1 {
+	float: right;
+	margin: -7px 84px 0 0;
+	background: url(img/pdf.png) top left no-repeat;
+	height: 30px;
+	width: 119px;
+	display: inline-block;
+	text-align: right;
+	font-family: Arial;
+	font-size: 11px;
+	color: #555;
+}
+
+/* HEADER */
+#header {
+	margin: 0 auto; 
+	padding: 0; 
+	width: auto; 
+	height: 120px;
+	position: relative;
+}
+
+#logo {
+	background: url(img/logo.png) center no-repeat;
+	background-position-x: 33px;
+	position: absolute;
+	border-top: 10px solid #DCE1E1; 
+	height: 118px; 
+	width: 140px; 
+}
+
+#header1 {
+	background: url(img/headback.jpg) top left;
+	float: right;
+	height:50px;
+	width: 820px;
+	text-align:center;
+}
+
+h1 {
+	display: none; 
+}
+
+#soundoff {
+	background-color: #CCC;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+	font-family: Arial;
+	border: 1px;
+	position: absolute;
+	top: 29px;
+	right: 100px;
+	width: 63px;
+	height: 21px;
+}
+
+#date {
+	text-align: left;
+	text-transform: lowercase;
+	line-height: 18px;
+	color: #DCE1E1;
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 62px;
+	right: 95px;
+}
+
+/* LANGUAGE */
+#language {
+	margin: 0 30px 0 30px;
+	width: 82px;
+	border-top: 1px solid black;
+	text-align: left;
+	padding: 2px;
+}
+
+#language a {
+	font-family: Arial;
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+/* Search */
+#s {
+	height: 12px;
+	width: 84px;
+	position: absolute;
+	top: 19px;
+	left: 29px;
+	font-size: 11px;
+}
+
+
+#searchsubmit {
+	display: none; 
+}
+
+#searchform {
+	position: absolute;
+	top: 130px;
+}
+
+/* SIDE MENU */
+#aside {
+	float: right;
+	width: 190px;
+	padding-top: 20px;
+}
+
+#aside ul a {
+	font-family: Arial;
+	line-height: 14px;
+	color: #000;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+#menu-main-menu ul { display:none; }
+#menu-main-menu li.current-menu-parent ul, 
+#menu-main-menu li.current-menu-item ul { 
+	display:block; 
+	margin: 0px -17px 0 15px;
+}
+
+
+#menu-main-menu ul li {
+	margin: 0 10px 0 0;
+}
+
+#menu-item {
+	margin: 0 17px 0 0;
+}
+
+.sub-menu {
+	margin: 0 13px 0;
+}
+
+
+#menu-main-menu li.current-menu-item a {
+	color: #999;
+	background: url(img/menubg.jpg) left center no-repeat;
+	padding: 5px;
+}
+
+
+/* PICTURE */
+#picture {
+	margin: 55px 10px 0 25px;
+	float: left;
+	height: 190px;
+	width: 155px;
+	background: url(img/logo2.png) top left no-repeat;
+}
+
+/* LINKS */
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
+.additional-meta {font-size: xx-small}
+blockquote {font-style:oblique}
+
+/* -- LISTS -- */
+li {
+	list-style: none; 
+}
+
+/* lists inside posts */
+.entry-content ul ol {margin-left:0;}
+.entry-content ul li {margin-left:10px; list-style:disc; list-style-position:inside}
+.entry-content ul li ol {margin-left:10px;}
+.entry-content ol li {margin-left:5px; list-style: decimal; list-style-position:inside}
+.entry-content ol li li {margin-left:5px;}
+
+/* -- HEADINGS -- */
+/* headings inside posts */
+.entry-content h3 {font-size:140%;}
+.entry-content h4 {font-size:120%;}
+.entry-content h5 {font-size:100%;}
+.entry-content h6 {font-size:90%;}
+
+/* Footer Content */
+#fcont {
+	text-align: left;
+	margin: -22px 54px;
+	font-family: Arial;
+	font-size: 11px;
+	color: #999;
+}
+
+#fcont .beotel {
+	background: url(img/btn2.png) right center no-repeat;
+	background-position-y: 0px;
+	height: 41px;
+	width: 150px;
+	display: inline-block;
+	text-align: left;
+	margin: 10px 0 0 0;
+	color: #555;
+}
+
+#footer {
+	height: 45px;
+	overflow: hidden;
+	margin: 20px auto 0;
+	clear: both;
+	float: right;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#wpml_credit_footer {
+	display: none; 
+}
+
+/* -- POSTS -- */
+.post-index {margin:0 0 10px;}
+#post-single {margin:0 0 20px;}
+
+.posts-wrap {
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: Arial;
+	font-size: 12px;
+	position: absolute;
+	top: 189px;
+	clear: none;
+	width: 500px;
+	height: 470px;
+	padding: 5px;
+}
+
+.post .page-title {
+	text-align: left;
+	font-size: 11px;
+	font-family: Arial;
+	color: #333;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin-left: 2px;
+	margin-bottom: 5px;
+}
+
+.entry-title { 
+text-align: left;
+	font-size: 11px;
+	font-family: Arial;
+	color: #333;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin-left: 2px;
+	margin-bottom: 7px;
+}
+
+.additional-meta {
+	display: none; 
+}
+
+/* RESPOND */
+#respond {
+	display: none;
+}
+
+/* PICTURES */
+.nav-prev {
+	display: none; 
+}
+
+/* COMMENTS */
+#comments {
+	display: none; 
+}
+
+.commentlist {
+	display: none; 
+}
+
+/* POST NAVIGATION */
+
+
+/* -- SIDEBARS --*/
+.sidebar-wrap {margin:0 auto;overflow:hidden; float:left; clear:none;width:300px;display: none;}
+.sidebar {width:99%;clear:none;}
+.block-1 {float:right;}
+
+/* -- 404-PAGE --*/
+.error404 {margin:0;width:100%;}
+.error404 h1,.error404 h2 {margin: 10px auto;}
+
+/* -- ALIGNMENTS --*/
+img.alignright {float:right;clear:none;margin:0 0 1em 1em}
+img.alignleft {float:left;clear:none;margin:0 1em 1em 0}
+img.aligncenter {display: block; margin:1em auto; text-align:center}
+img.alignnone {margin:0 0.5em 0 0;}
